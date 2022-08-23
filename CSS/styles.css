@@ -1,8 +1,26 @@
-a{
-    position:relative;left: 650px;
+*{
+    list-style: none;
+    margin: 0;
+}
+
+#imagenLogoGad{
+    position: relative; left:650px ;
 }
 
 h1{
-    color:blue;
+    color:#0000ff;
     text-align: center;
 }
+
+.box {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background: #004c63;
+    color: #9e9e9e;
+    font-weight: bold;
+   } 
+ 
+  #one{
+    font: weight 800px;;
+  }
