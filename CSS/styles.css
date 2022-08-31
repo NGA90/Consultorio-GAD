@@ -6,7 +6,7 @@
 }
 
 body {
-background: linear-gradient(#ffffff 0%, #d8d8d8 25%, #c9c9c9 50%, #b8b8b8 75%, #9b9b9b 100%);;
+background: url(../imagenes/Fondo1.jpg);
 }
 
 #imagenLogoGad{
@@ -17,32 +17,19 @@ h1{
     color:#adadad;
     text-align: center;
     background-color: #0052b1;
+    
 }
 
-#Botones{
-  position: relative; left:36em ; top:0.5em;
-
-}
 
 #QuienesSomos, #Especialidades,#Galeria,#Contacto{
-  text-align: center;
   color: #ffffff;
   border: 2px solid #000000;
-  width: 100px;
-  height: 40px;
+  width: 140px;
+  height: 30px;
+  display: inline-flex
+  
 }
 
-#Especialidades{
-  position:relative; left: 105px; bottom: 44px;
-}
-
-#Galeria{
-  position:relative; left: 210px; bottom: 88px;
-}
-
-#Contacto{
-  position:relative; left: 315px; bottom: 132px;
-}
 
 #Whatsapp{
   position: fixed; margin-left: 96%; margin-top: 43%;
@@ -69,11 +56,11 @@ a:active {
 }
       
 #PrimerParrafo{
-  width: 20px;
-  height: 50px;
+  width: 50px;
+  height: 100px;
   font-weight: bold;
   font-size: xx-large;
-  position: relative; bottom: 3em; left: 1em;
+  position: relative; left: 1em; top: 1.2em;
 }
 
 .animate__bounce{
