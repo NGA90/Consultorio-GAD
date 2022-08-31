@@ -26,3 +26,11 @@ main{
     font-size: 30px;
     color: black;
 }
+
+.div{
+    position: fixed;
+}
+
+#Whatsapp{
+    position: fixed; margin-left: 96%; margin-top: 25%;
+  }
