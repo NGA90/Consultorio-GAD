@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/Icono GAD.ico">
+    <link rel="stylesheet" href="./CSS/Contacto.css">
+
     <title>Contacto</title>
 </head>
 <body>
-    
+    <header>
+        <a href="./index.html"><img src="./imagenes/Logo GAD.png" alt="Logo GAD" width="550" height="200"></a>
+        <div id="Whatsapp">
+            <a href="https://wa.me/541133101709" target="_blank" id="LogoWS"><img src="./imagenes/Whatsapp.png" alt="" width="60" height="60"></a>
+        </div> 
+    <h1>Contacto</h1>
+    </header>
+    <main>
+        <form action="recibe.php" method="get">
+            <input type="text" placeholder="Nombre" name="nombre">
+            <input type="email" placeholder="Email" name="email"><br><br>
+            <label for="Especialidad" >Especialidad</label>
+            <select name="Especialidad" id="Especialidad">
+                <option value="Kinesiologia">Kinesiologia</option>
+                <option value="RPG">RPG</option>
+                <option value="Osteopatia">Osteopatia</option>
+                <option value="Depilacion">Depilacion</option>
+                <option value="Estetica">Estetica</option>
+                <option value="Nutricion">Nutricion</option>
+                <option value="Terapia Ocupacional">Terapia Ocupacional</option>
+                <option value="Acupuntura">Acupuntura</option>
+                <option value="Masajes">Masajes</option>
+                <option value="MEP">MEP</option>
+                <option value="Marcha">Marcha</option>
+            </select><br><br>
+            <input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+            <input type="radio" name="genero" value="sin genero" id="sin genero"><label for="sin genero">Sin Genero</label><br>
+            <input type="checkbox" name="paciente" id="paciente"><label for="paciente">Sos Paciente?</label><br>
+            <textarea name="mensaje" id="mensajecontacto" cols="30" rows="10" placeholder="Deja aca tu mensaje!"></textarea><br><br>
+            <input type="submit" value="Enviar" id="Enviar"><br><br><br>
+        
+        </form>
+    </main>
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.251104531666!2d-58.697311!3d-34.6657433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccab02b985010669!2sGad%20Centro%20De%20Rehabilitaci%C3%B3n%20Y%20Est%C3%A9tica!5e0!3m2!1ses-419!2sar!4v1661269809394!5m2!1ses-419!2sar" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+        <a href="https://www.instagram.com/gad.kine/" target="_blank"><img src="./imagenes/Instagram.jpg" alt="" width="60" height="60"></a>
+        <a href="mailto:gad.kine@hotmail.com" target="_blank"><img src="./imagenes/GMail.png" alt="" width="80" height="60"></a>
+        &copy;Copyright 2022
+    </footer>
 </body>
 </html>
