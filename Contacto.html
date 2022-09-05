@@ -11,18 +11,29 @@
 </head>
 <body>
     <header>
-        <a href="./index.html"><img src="./imagenes/Logo GAD.png" alt="Logo GAD" width="550" height="200"></a>
-        <div id="Whatsapp">
-            <a href="https://wa.me/541133101709" target="_blank" id="LogoWS"><img src="./imagenes/Whatsapp.png" alt="" width="60" height="60"></a>
-        </div> 
-    <h1>Contacto</h1>
+        <header class="display">
+            <a href="./index.html"><img src="./imagenes/Logo GAD.png" alt="Logo GAD" width="600"></a>
+            <h1><strong><span style="color: black;">GAD</span></strong><br> Rehabilitacion Fisica Integral</h1>
+        </header>
+        <div id="NuevaBotonera">
+            <a href="./QuienesSomos.html" class="btn borderedondeado">¿Quienes Somos?</a>
+            <a href="./Especialidades.html"class="btn borderedondeado">Especialidades</a>
+            <a href="./Galeria.html" class="btn borderedondeado">Galeria</a>
+            <a href="./Contacto.html" class="btn borderedondeado">Contacto</a>
+        </div>
+    <h2>Contacto</h2>
     </header>
     <main>
-        <form action="recibe.php" method="get">
+        <form action="recibe.php" method="get" class="formulario">
             <input type="text" placeholder="Nombre" name="nombre">
-            <input type="email" placeholder="Email" name="email"><br><br>
-            <label for="Especialidad" >Especialidad</label>
+            <input type="email" placeholder="Correo" name="email">
+            <input type="tel" placeholder="Telefono" name="Telefono">
+            <select name="Paciente" id="Paciente">
+                <option value="Paciente">Soy paciente</option>
+                <option value="Paciente">No soy paciente</option>
+            </select>
             <select name="Especialidad" id="Especialidad">
+                <option value="Kinesiologia">Especialidad</option>
                 <option value="Kinesiologia">Kinesiologia</option>
                 <option value="RPG">RPG</option>
                 <option value="Osteopatia">Osteopatia</option>
@@ -34,13 +45,9 @@
                 <option value="Masajes">Masajes</option>
                 <option value="MEP">MEP</option>
                 <option value="Marcha">Marcha</option>
-            </select><br><br>
-            <input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
-            <input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer</label>
-            <input type="radio" name="genero" value="sin genero" id="sin genero"><label for="sin genero">Sin Genero</label><br>
-            <input type="checkbox" name="paciente" id="paciente"><label for="paciente">Sos Paciente?</label><br>
-            <textarea name="mensaje" id="mensajecontacto" cols="30" rows="10" placeholder="Deja aca tu mensaje!"></textarea><br><br>
-            <input type="submit" value="Enviar" id="Enviar"><br><br><br>
+            </select>
+            <textarea name="mensaje" id="mensajecontacto" cols="30" rows="10" placeholder="Deja aca tu mensaje!"></textarea>
+            <input type="submit" value="Enviar" id="Enviar">
         
         </form>
     </main>
