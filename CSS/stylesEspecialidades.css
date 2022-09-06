@@ -1,40 +1,105 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
 body {
-   
     color: white;
     background-image: url(../imagenes/Fondo1.jpg);
-    text-align: center;
-    
-}
-
-a{
-    text-align: center;
+    background-size:contain;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     color: gray;
     font-size: 40px;
+    text-align: center;
+    position: relative; bottom: 120px;
+  }
+
+.btn{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(253,230,222,1) 100%);
+    font-size: 16px;
+    display: inline-block;
+    margin: auto auto ;
+    padding: 10px 20px;
+    border: 5px solid #dfbfa6;
+    text-decoration: none;
+    color: black;
+    position: relative; left: 35%; bottom: 40px;
+    transition: opacity .3s ease;
+  }
+  
+  .btn:hover{
+    opacity: .8;
+    background-color:antiquewhite;
+    border: 5px solid #3f3f3f;
+  } 
+  
+  .borderedondeado{
+    border-radius: 100px;
+  }
+
+.pie a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
 }
 
-h2{
-    color: black;
-    
-}
-main{
-    font-style: italic;
-    font-size: 30px;
-    color: black;
-}
-
-.div{
-    position: fixed;
+.pie a:hover{
+    background-color: #78A1BB;
+    color: #000;
+    font-weight: bold;
+    border: 3px solid black;
 }
 
 #Whatsapp{
-    position: fixed; margin-left: 96%; margin-top: 25%;
+    position: fixed; right: 0%; bottom: 0%;
+    z-index: 1;
   }
+
+.especialidad{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.titulo{
+    background-color: #C9C0BA;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.informacion{
+    background-color: #EBF5EE;
+    color: #000;
+    padding: 20px;
+    width: 80%;
+    float: left;
+}
+
+.informacion p{
+    text-align: center;
+}
+
+aside{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 20%;
+    height: 235px;
+    float: left;
+    background-color: #E7DEDA;
+    text-align: center;
+}
+
+.pie{
+    clear: both;
+    background-color:#7282AC;
+    text-align: center;
+    
+}
+
