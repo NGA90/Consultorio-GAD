@@ -73,19 +73,21 @@ h1{
     display: inline-block;
     padding: 10px;
     position: relative; right: 40%; top: 10px;
-}
+}   
 
 aside{
     color: rgb(0, 0, 0);
     padding: 20px;
     width: 20%;
-    height: 235px;
+    height: fit-content;
     float: left;
     background-color: #E7DEDA;
     text-align: center;
+
 }
 
 .pie{
+    width: 80%;
     clear: both;
     background-color:#7282AC;
     text-align: center;
@@ -106,4 +108,18 @@ aside{
     color: #000;
     font-weight: bold;
     border: 3px solid black;
+}
+
+.informacion h2{
+    color: #000;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    opacity: 0.8;
+}
+
+aside h2{
+    color: #000;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    opacity: 0.8;
 }
